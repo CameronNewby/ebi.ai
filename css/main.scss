@@ -79,7 +79,9 @@ footer {
 
 #splash_text {
   animation: fade 10s infinite;
-	font-size: 26px;
+  font-size: 26px;
+  line-height: 2.5ex;
+  height: 7.5ex; /* 2.5ex for each visible line */
 }
 
 #scrollButton {
