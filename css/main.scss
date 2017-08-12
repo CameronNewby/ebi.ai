@@ -46,7 +46,7 @@ video#bgvid {
 	position: fixed;
 	min-width: 100%;
 	min-height: 100%;
-	// background: rgba(0,0,0,0.3);
+
 	z-index: -99;
   animation: fadeIn 1s;
 }
@@ -61,7 +61,6 @@ footer {
 
 #splash {
 	height: 100%;
-	/* background: linear-gradient(30deg, #0D9BA5, #4CCFD7, #048799); */
 	display: flex;
 	align-items: center;
 }
