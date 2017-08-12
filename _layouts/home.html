@@ -1,83 +1,6 @@
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400" rel="stylesheet">
-  <style>
-  input:focus,
-  select:focus,
-  textarea:focus,
-  button:focus {
-      outline: none;
-  }
-
-  body {
-  	font-family: 'Yantramanav', sans-serif;
-  	margin: 0;
-  	font-size: 20px;
-  	font-weight: 400;
-  	color: #293a5f;
-    background-color: black;
-  }
-
-  video#bgvid {
-  	position: fixed;
-  	min-width: 100%;
-  	min-height: 100%;
-  	width: auto;
-  	z-index: -100;
-    animation: fadeIn 1s;
-  }
-
-  #filter {
-  	position: fixed;
-  	min-width: 100%;
-  	min-height: 100%;
-  	background: rgba(0,0,0,0.3);
-  	z-index: -99;
-    animation: fadeIn 1s;
-  }
-
-  @keyframes fadeIn {
-  	0% { opacity: 0; }
-  	100% { opacity: 1; }
-  }
-
-  @keyframes fade {
-  	0% { opacity: 0 }
-  	10% { opacity: 1 }
-  	90% { opacity: 1 }
-  	100% { opacity: 0 }
-  }
-
-  #splash {
-  	height: 100%;
-  	/* background: linear-gradient(30deg, #0D9BA5, #4CCFD7, #048799); */
-  	display: flex;
-  	align-items: center;
-  }
-
-  #splash_inner {
-  	margin: auto;
-  	width: 90%;
-  	max-width: 500px;
-  	text-align: center;
-  	font-weight: 300;
-  	color: white;
-  }
-
-  #splash_img {
-  	margin: auto;
-  	width: 80%;
-
-  }
-
-  #splash_img img {
-  	width: 90%;
-  	padding: 5%;
-  }
-
-  #splash_text {
-    animation: fade 10s infinite;
-  	font-size: 26px;
-  }
+  {% include header.html %}
+</head>
 
 <video playsinline autoplay muted loop poster="assets/background.png" id="bgvid">
 	<source src="assets/EBI-Video-Loop-2.mp4" type="video/mp4">
@@ -221,11 +144,93 @@
             <img src="assets/code.png"/>
           </div>
         </div>
-        <input type="submit" value="Tell Me More" name="subscribe" id="mc-embedded-subscribe" class="button">
-      </div>
-    </form>
+      </li>
+      <li>
+        <input type="radio" name="t" id="tab6">
+        <label for="tab6">simplicity</label>
+        <div tab-content>
+          <div class="panel">
+            <img src="assets/simplicity-human3-1.png"/>
+          </div>
+          <div class="panel">
+            <img src="assets/call-centre-1.png"/>
+            <img src="assets/app-flipped.png"/>
+          </div>
+        </div>
+      </li>
+    </ul>
+    &nbsp;
   </div>
 </div>
+
+<div class="anti_block">
+  RBS ARE USING WATSON
+	<p>“LUVO FREES ADVISORS FROM SPENDING TIME ON SIMPLE, EASILY-ADDRESSED QUERIES SO THEY CAN HELP CUSTOMERS WITH MORE COMPLEX ISSUES AND QUESTIONS – IMPROVING THE EXPERIENCE OF BOTH PARTIES.”</p>
+	<p class="author">JANE HOWARD, HEAD OF PERSONAL BANKING, ROYAL BANK OF SCOTLAND</p>
+</div>
+
+<div class="block">
+<div class="inner_block">
+	<div class="row">
+		<div class="column" data-aos="zoom-in">
+      <img src="assets/fast-build-time.png"/>
+			<h3>EXCEPTIONALLY FAST BUILD TIME</h3>
+      <p>Thanks to our unrivalled experience with this area of development, you can have your bespoke chatbot built, tested, and a minimum viable product ready to launch in around 3 weeks. Which means huge cost savings are just a few beta testers away.</p>
+		</div>
+		<div class="column" data-aos="zoom-in" data-aos-delay="100">
+      <img src="assets/advanced-tech.png"/>
+			<h3>THE MOST ADVANCED TECHNOLOGY</h3>
+      <p>When it comes to cognitive virtual assistants, IBM Watson is top of the class. That’s why we use it. But technology is constantly advancing, so depending on your user requirements we’ll choose the software that fits your business best.</p>
+		</div>
+  </div>
+	<div class="row">
+		<div class="column" data-aos="zoom-in" data-aos-delay="200">
+      <img src="assets/completely-custom.png"/>
+			<h3>COMPLETELY CUSTOMISABLE</h3>
+      <p>Your business is unlike any other, which is why all of our chatbots are built from scratch on our own (top secret) chatbot platform. They can be visually branded, programmed to use company tone of voice, and provide a recognisable customer experience that people will want to repeat.</p>
+		</div>
+		<div class="column" data-aos="zoom-in" data-aos-delay="300">
+      <img src="assets/uses-natural-language.png"/>
+			<h3>USES NATURAL LANGUAGE</h3>
+      <p>IBM Watson has the best natural language processor on the market today. Conversations and transactions are natural rather than robotic, and it’s far less likely that a chatbot will misunderstand – or that a customer will slip through the cracks.</p>
+		</div>
+  </div>
+	<div class="row">
+		<div class="column" data-aos="zoom-in" data-aos-delay="400">
+      <img src="assets/247.png"/>
+			<h3>24/7 AVAILABILITY</h3>
+      <p>A chatbot doesn’t need sleep. It doesn’t even need coffee. It can work for you 24/7, 365 days a year, and serve hundreds of customers at exactly the same time. Not only does this ease the pressure on your support team, it increases overall productivity.</p>
+		</div>
+		<div class="column" data-aos="zoom-in" data-aos-delay="500">
+      <img src="assets/responsive.png"/>
+			<h3>OPERATES RESPONSIVELY ACROSS ALL PLATFORMS</h3>
+      <p>Desktop – check. Tablet – check. Smartphone – check. Amazon Echo – check. (Yes, they’re that advanced.) Whatever platforms your customers are on, your chatbot can be there too. People don’t have to visit your website or make a phone call, they can simply open an app they already have installed.</p>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="anti_block">
+	<p>THE FUTURE OF CUSTOMER SERVICE RESTS IN CHATBOTS. LET US BUILD ONE FOR YOU.</p>
+</div>
+
+<div class="block">
+	<div class="inner_block">
+		<h1><span>Contact</span></h1>
+		<p>Drop us a line with any queries you might have via the contact form below</p>
+    <form>
+      <input class="text_input" id="contact_name" type="text" placeholder="name"/>
+      <input class="text_input" id="contact_email" type="text" placeholder="e-mail"/>
+      <textarea rows="10" class="text_input" id="contact_message" type="text" placeholder="message"></textarea>
+      <input id="submit" type="submit"/>
+    </form>
+	</div>
+</div>
+
+<footer>
+	{% include footer.html %}
+</footer>
+
 <script>
 var splash_text_data = [
 	'Artificial intelligence, humanised',
@@ -243,6 +248,13 @@ setInterval(()=>{
 	count = (count+1)%3;
 	splash_text.innerHTML = splash_text_data[count];
 }, 10000);
+
+document.querySelector('#scrollButton>a').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#overview').scrollIntoView({behavior: "smooth"});
+});
+
+AOS.init();
 </script>
 </body>
 </html>
