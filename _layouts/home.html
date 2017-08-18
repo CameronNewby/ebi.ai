@@ -282,7 +282,7 @@ setInterval(()=>{
 	splash_text.innerHTML = splash_text_data[count];
 }, 10000);
 
-document.querySelector('#scrollButton>a').addEventListener('click', function(e) {
+document.querySelector('#scrollButton').addEventListener('click', function(e) {
   e.preventDefault();
   document.querySelector('#overview').scrollIntoView({behavior: "smooth"});
 });
