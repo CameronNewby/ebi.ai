@@ -59,6 +59,7 @@ footer {
   top: 0;
   left: 0;
   right: 0;
+  display: -webkit-flex;
 	display: flex;
 	align-items: center;
 }
@@ -185,11 +186,11 @@ h3 {
 }
 
 .block_row {
+  display: -webkit-flex;
 	display: flex;
 	align-items: center;
 	padding: 40px 0;
   font-size: 18px;
-  min-width: 100%;
   overflow: hidden;
 }
 
@@ -266,6 +267,7 @@ h3 {
   text-align: left;
   white-space: normal;
   visibility:hidden;
+  display: -webkit-flex;
   display: flex;
   opacity:0;
   transition:visibility 0s linear 0.5s,opacity 0.3s linear;
@@ -296,6 +298,7 @@ h3 {
 }
 
 .row {
+  display: -webkit-flex;
 	display: flex;
 }
 
@@ -312,6 +315,7 @@ h3 {
 }
 
 .panel {
+  -webkit-flex: 1;
   flex: 1;
 	margin-top: 20px;
 	margin-left: 1%;
@@ -320,6 +324,7 @@ h3 {
 	border-radius: 10px;
 	padding: 2.5%;
 	text-align: center;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   flex-direction: column;
