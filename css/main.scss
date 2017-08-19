@@ -93,6 +93,7 @@ footer {
 #scrollButton {
 	bottom: 10%;
 	left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 80px;
   height: 100px;
@@ -109,6 +110,7 @@ footer {
 
 #scrollButton a span {
   position: fixed;
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   left: 30%;
   width: 30px;
@@ -122,6 +124,7 @@ footer {
 }
 @keyframes scrollAnimation {
   0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
     transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
   }
@@ -129,6 +132,7 @@ footer {
     opacity: 1;
   }
   100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
@@ -263,6 +267,7 @@ h3 {
   height: 80%;
   position: absolute;
   left: 50%;
+  -webkit-transform: translate(-50%);
   transform: translate(-50%);
   text-align: left;
   white-space: normal;
